@@ -10,9 +10,9 @@ def name
 
 end
 
-class Person
-  def initialize(name)
-    @name = name
+class Dpg
+  def initialize(Steve)
+    @name = Steve
   end
   def name
     @name
