@@ -10,7 +10,7 @@ def name
 
 end
 
-class Dpg
+class Dog
   def initialize(Steve)
     @name = Steve
   end
@@ -21,3 +21,5 @@ class Dpg
     @name = new_name
   end
 end
+
+Dog.instance_variable_set(:@name, "Steve")
